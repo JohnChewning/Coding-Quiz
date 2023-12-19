@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Code Quiz</title>
+</head>
+
+<body>
+    <div class="bodyStyle">
+        <header>
+            <div>
+                <a href="./highscores.html">
+                    <button class="scoresHeader" id="view-high-scores">
+                        View High Scores
+                    </button>
+                </a>
+            </div>
+
+            <div class="timer">
+                <p>
+                    Time: <span id="timer"> 0 </span>
+                </p>
+            </div>
+        </header>
+
+        <main class="quiz">
+            <start id="quiz-start">
+                <div class="landing" id="start-screen">
+                    <h1>
+                        John's Coding Quiz
+                    </h1>
+                    <p>
+                        You have 100 seconds to answer the questions before the time runs out!
+                        Every wrong answer will subtract 10 seconds.
+                    </p>
+                    <button id="start">
+                        Start
+                    </button>
+                </div>
+            </start>
+
+            <div class="hide" id="questions">
+                <h2 id="question-words"></h2>
+                <div class="options" id="options">
+                </div>
+            </div>
+
+            <div class="hide" id="quiz-end">
+                <h2>You Did It!</h2>
+
+                <p>
+                    Your final score is: <span id="score-final"></span>
+                </p>
+
+                <p>
+                    Please enter your name: <input type="text" id="name"/>
+                    <button id="submit-score">
+                        Submit
+                    </button>
+                </p>
+                <a href="index.html"> 
+                    <button> 
+                        Retry 
+                    </button> 
+                </a>
+            </div>
+
+            <div id="response" class="response hide">
+            </div>
+        </main>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
