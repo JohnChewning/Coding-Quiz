@@ -14,12 +14,12 @@ let questions = [
     },
 
     {
-        prompt: `How do you call a function named myFunction?`,
+        prompt: `How do you call a function named startGame?`,
         options: [
-            "call myFunction()",
-            "myFunction()",
-            "call function myFunction",
-            "Call.myFunction",
+            "call startGame()",
+            "startGame()",
+            "call function startGame",
+            "Call.startGame",
         ],
         answer: "myFunction()",
     },
