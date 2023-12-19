@@ -21,7 +21,7 @@ let questions = [
             "call function startGame",
             "Call.startGame",
         ],
-        answer: "myFunction()",
+        answer: "startGame()",
     },
 
     {
