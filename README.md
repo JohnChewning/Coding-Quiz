@@ -1,12 +1,12 @@
 #Coding-Quiz
 
-#Introduction
+#3Introduction
 
 In this project, we built a coding quiz from scratch using HTML, CSS, & Javascript. 
 The quiz needed a timer with a subtract time function for wrong answers and function to save your name and score to a leaderboard.
 
 
-#Project Overview
+#3Project Overview
 
 The goal of this project was to use JavaScript fundamentals that store high scores.
 Using different functions like
